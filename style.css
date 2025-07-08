@@ -185,14 +185,24 @@ input:checked + .slider:before {
   background-color: #111;
   color: #eee;
 }
+
 [data-theme="dark"] .hero {
   background: linear-gradient(to right, #1a1a1a, #2c2c2c);
 }
+
 [data-theme="dark"] .about,
 [data-theme="dark"] .contact,
 [data-theme="dark"] .tiktok {
   background-color: #1f1f1f;
 }
+
+[data-theme="dark"] .about,
+[data-theme="dark"] .contact,
+[data-theme="dark"] .youtube {
+  background-color: #1f1f1f;
+  color: #ddd;
+}
+
 [data-theme="dark"] .btn {
   background-color: #e04886;
 }
@@ -214,6 +224,39 @@ footer {
   transform: scale(0.97);
   box-shadow: 0 0 0 3px rgba(255,93,162,0.3);
 }
+
+.youtube {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.youtube h2 {
+  font-size: 2rem;
+  color: #e52d27; /* YouTube red */
+  margin-bottom: 10px;
+}
+
+.youtube p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.youtube .btn {
+  background: #e52d27;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.youtube .btn:hover {
+  background: #cc1c1c;
+}
+
 
 /* ================================
    Responsive Design - Mobile First
